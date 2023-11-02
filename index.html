@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="./index.css">
+        <link rel="stylesheet" href="./index.css" />
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>Zoo Animals</title>
     </head>
-    <!-- This is where I put the header to my site -->
-    <h1>Zoo Animals</h1>
     <body>
-        <nav>
+        <!-- This is where I put the header to my site -->
+        <header class="row">
+        <h1>Zoo Animals</h1>
+        </header>
+        <div class="row">
+            <div class="column">
             <!-- This whole section is about bears -->
             <p>Bears</p>
             <img
@@ -46,9 +49,11 @@
             />
             <li>Mella</li>
             <li>Karl</li>
-            <p>Lions are beautiful creatures.  They hunt other beautiful creatures.</p>
-            <a href="https://www.wwf.org.uk/learn/fascinating-facts/lions">Fancys about lions</a>
+            <p>Lions are beautiful creatures. They hunt other beautiful creatures.</p>
+            <a href="https://www.wwf.org.uk/learn/fascinating-facts/lions">Facts about lions</a>
+            </div>
 
+            <div class="column">
             <p>Monkeys</p>
             <img
                 class="Silly Monkeys"
@@ -72,10 +77,11 @@
             <li>Wren</li>
             <li>Aspen</li>
             <li>Mika</li>
-            <p>Do not get close to these creatures.  Unless you're willing to lose a leg.</p>
+            <p>Do not get close to these creatures. Unless you're willing to lose a leg.</p>
             <a href="https://www.treehugger.com/alligator-facts-5119214">Facts about Alligators</a>
-        </nav>
-        <footer>
+            </div>
+        </div>    
+        <footer class="row">
             <p>Thank you for taking the time to learn about our animals</p>
         </footer>
     </body>
