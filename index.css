@@ -1,21 +1,22 @@
-body{
-    background-image: url(https://img.freepik.com/free-vector/border-template-design-with-cute-animals_1308-35101.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1698883200&semt=ais);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+body {
+  background-image: url(https://img.freepik.com/free-vector/border-template-design-with-cute-animals_1308-35101.jpg?size=626&ext=jpg&ga=GA1.1.1880011253.1698883200&semt=ais);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-    h1 {
-        color:white;
-        text-align: center;
-        text-decoration: underline;
-    }
-    p {font-weight: bold;}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+p {
+  font-weight: bold;
+}
 
-    .row {
-        display: flex;
-        justify-content: center;
-    }
-    .column {
-        width: auto;
-    }
-    
+.row {
+  display: flex;
+  justify-content: center;
+}
+.column {
+  width: auto;
+}
